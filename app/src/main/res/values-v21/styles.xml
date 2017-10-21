@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Theme.DesignBemo" parent="AppTheme">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="Theme.SpecificDesignBemo" parent="AppThemeSpecific">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_begin_chat"
+            android:title="Talk to a Counselor" />
+        <item
+            android:id="@+id/nav_about_bemo"
+            android:title="About Bemo"/>
+
+        <item
+            android:id="@+id/nav_payment_bemo"
+            android:title="Payments"/>
+
+        <item
+            android:id="@+id/nav_history_bemo"
+            android:title="History"/>
+
+        <item
+            android:id="@+id/nav_contact_us"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>
+
+    <!--<group android:id="@+id/nav_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_begin_chat"
+            android:title="Talk to a Counselor" />
+    </group>
+
+
+    <group android:id="@+id/nav_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_about_bemo"
+            android:title="About Bemo" />
+    </group>
+
+    <group android:id="@+id/nav_3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_contact_us"
+            android:title="Contact Us" />
+    </group>
+
+    <group android:id="@+id/nav_4">
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Logout" />
+    </group>-->
+    <!--android:icon="@drawable/ic_menu_health"-->
+</menu>

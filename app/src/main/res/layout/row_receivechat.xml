@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/messengerImageView"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/ic_account_circle_black_36dp"/>
+
+    <LinearLayout
+        android:id="@+id/img_cont1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="16sp"
+        android:layout_marginRight="48sp"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+           <!-- <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/messengerImageView1"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_account_circle_black_36dp"/> -->
+
+            <ImageView
+                android:id="@+id/photoImageView_receive"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/chatview_left"
+                />
+
+        <TextView
+            android:id="@+id/image_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hey"
+            android:layout_weight="0"
+            android:textColor="@color/gray_dark_3"
+            android:background="@drawable/chatview_left"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="16dp">
+        </TextView>
+       <!-- <ImageView
+            android:id="@+id/play_btn_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:visibility="visible"
+            android:src="@android:drawable/ic_media_play" />-->
+    </LinearLayout>
+
+
+       <!-- <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/messengerImageView"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/ic_account_circle_black_36dp"/>-->
+
+        <TextView
+            android:id="@+id/txt_receive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chatview_left"
+            tools:text="Hola doctora cuando sera la primera clase"
+            android:textColor="@color/gray_dark_3"
+            android:textSize="15sp"
+            android:layout_marginLeft="16sp"
+            android:layout_marginRight="48sp"
+           />
+
+</LinearLayout>

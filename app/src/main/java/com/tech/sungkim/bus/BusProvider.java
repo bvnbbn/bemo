@@ -1,0 +1,18 @@
+package com.tech.sungkim.bus;
+
+import com.squareup.otto.Bus;
+
+/** Created by jacob on 26/09/2016.
+ */
+
+public class BusProvider {
+    private static final Bus BUS = new Bus();
+
+    public static Bus getInstance(){
+        return BUS;
+    }
+
+    private BusProvider(){
+
+    }
+}

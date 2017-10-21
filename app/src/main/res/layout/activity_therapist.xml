@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tech.sungkim.bemo.TherapistActivity">
+
+    <LinearLayout
+        android:layout_width="367dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="-11dp"
+        android:background="@color/get_started_btn_color"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/linearLayout5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/therapist_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerVertical="true"
+                android:layout_margin="16dp"
+                android:src="@drawable/pallavi_image"
+                app:civ_border_color="@color/white" />
+
+            <TextView
+                android:id="@+id/side_note_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="sans-serif-light"
+                android:lineSpacingExtra="6sp"
+                android:paddingRight="12dp"
+                android:text="Pallavi is the therapist for you, because of your anxiety score
+and your daily schedule. Therapists check in 2 to 3 times daily"
+                android:textColor="#4a4a4a"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/therapist_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+
+            android:fontFamily="sans-serif-light"
+            android:gravity="left"
+            android:text="Pallavi Tomar"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="normal" />
+    </LinearLayout>
+    <TextView
+        android:layout_height="0dp"
+        android:layout_width="wrap_content"
+        android:text="Hi, I’m excited to partner with you on your emotional support journey. For the past 7 years"
+        android:id="@+id/therapist_intro_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout5"
+        android:paddingLeft="16dp"
+        android:textColor="#4a4a4a"
+        android:textSize="14sp"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Subscription Charges"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="47dp"
+        app:layout_constraintTop_toBottomOf="@+id/therapist_intro_text" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:text="0"
+        app:layout_constraintBaseline_toBaselineOf="@+id/textView19"
+        app:layout_constraintLeft_toRightOf="@+id/textView19" />
+
+    <Button
+        android:id="@+id/pay_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pay_0"
+        android:text="0"
+        android:gravity="center"
+        android:paddingLeft="64dp"
+        android:textSize="21sp"
+        android:layout_marginTop="148dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

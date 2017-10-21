@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tech.sungkim.bemo">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:configChanges="orientation|keyboardHidden"
+        android:icon="@mipmap/bem_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/app_bg_theme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.bemo.android.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
+        <activity android:name="com.facebook.FacebookActivity"
+            android:configChanges=
+                "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+
+        <!--if any user is not having messenger installed then it will take open the
+        browser -->
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SplashActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/app_bg_ini">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".NotificationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".ChatView"
+            android:theme="@style/NoActionBarBemo" />
+
+
+        <activity
+            android:name=".LoginUserAct"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.tech.sungkim.notification.MyFirebaseInstanceID">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+            <!-- Firebase Notifications -->
+            <service android:name="com.tech.sungkim.notification.MyFirebaseMessagingService">
+                <intent-filter>
+                    <action android:name="com.google.firebase.MESSAGING_EVENT" />
+                </intent-filter>
+            </service>
+
+
+
+
+        <activity android:name=".ShowMediaActivity" />
+        <activity
+            android:name=".QuestionActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/app_bg_theme" />
+        <activity
+            android:name=".ResultActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:parentActivityName=".Precursor"
+            android:screenOrientation="portrait" />
+
+       <!-- <activity android:name=".AfterPay" /> -->
+
+
+       <!-- <activity android:name=".AgeGetter" /> !-->
+
+
+        <activity
+            android:name=".LandingMainActivity"
+            android:exported="true"
+            android:label="@string/title_activity_landing_main"
+            android:theme="@style/Theme.DesignBemo" />
+        <activity
+            android:name=".Precursor"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="true"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/app_bg_theme" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/app_bg_ini" />
+
+        <activity
+            android:name=".FinalQuestionActivity"
+            android:parentActivityName=".Precursor" />
+
+        <activity
+            android:name=".ScoreCardActivity"
+            android:exported="true"
+            android:parentActivityName=".LoginUserAct" />
+        <activity
+            android:name=".Before_chat"
+            android:exported="true"
+            android:parentActivityName=".LoginUserAct" />
+        <activity
+            android:name=".TherapistActivity"
+            android:exported="true"
+            android:parentActivityName=".BeforeChat" />
+        <activity
+            android:name=".TherapistDetail"
+            android:exported="true"
+            android:parentActivityName=".TherapistActivity" />
+
+
+        <activity
+            android:name=".PlanActivity"
+            android:exported="true"
+            />
+        <activity
+            android:name=".Get_Details"
+            android:exported="true"
+            android:parentActivityName=".PlanActivity"/>
+
+        <activity
+            android:name=".UserDashB"
+            android:exported="true"
+            android:label="@string/title_activity_user_dash_b"
+            android:theme="@style/app_bg_theme.NoActionBar" />
+
+    </application>
+
+</manifest>

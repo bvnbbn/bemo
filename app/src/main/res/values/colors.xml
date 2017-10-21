@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#80bad2</color>
+    <color name="colorPrimaryDark">#618c9e</color>
+    <color name="colorAccent">#c6c6c6</color>
+
+    <color name="vanish_text_color">#4a4a4a</color>
+    <color name="toolbar_perfil">#8C9EFF</color>
+    <color name="line_perfil">#80bad2</color>
+    <color name="started_btn_color">#009688</color>
+    <color name="red_light">#E53935</color>
+    <color name="green_light">#2E7D32</color>
+    <color name="green_dark">#1B5E20</color>
+    <color name="green_light_0">#80d889</color>
+    <color name="red_dark">#B71C1C</color>
+    <color name="info_head_color">#a7ffeb</color>
+    <color name="window_background">#F5F5F5</color>
+    <color name="light_navy">#112a73</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="marron">#795548</color>
+    <color name="list_border">#78ffba26</color>
+    <color name="greyish">#d8d8d8</color>
+    <color name="gray">#9E9E9E</color>
+    <color name="gray_half">#BDBDBD</color>
+    <color name="gray_dark">#757575</color>
+    <color name="gray_half_2">#DEDEDE</color>
+    <color name="gray_half_3">#EFEFEF</color>
+    <color name="gray_half_4">#F7F7F7</color>
+    <color name="get_started_btn_color">#ffba26</color>
+    <color name="selected">#f8e81c</color>
+    <color name="question_text_color">#0586e1</color>
+    <color name="gray_dark_2">#424242</color>
+    <color name="gray_dark_3">#212121</color>
+    <color name="bemo">#00E676</color>
+
+    <color name ="send_message">#495ae2</color>
+    <color name = "send_message_color">#ffffff</color>
+
+    <color name="gray_light">#E0E0E0</color>
+    <color name="gray_light_1">#F5F5F5</color>
+    <color name="gray_light_2">#EBEBEBEB</color>
+
+    <color name="blue_perfil">#8C9EFF</color>
+    <color name="txt_anim_perfil">#E91E63</color>
+
+    <color name="btn_pinkdark_">#FE2E64</color>
+
+    <color name="colorActiveLogin">#FFF</color>
+    <color name="colorInactiveLogin">#96FFFFFF</color>
+    <color name="yellow">#F7FE2E</color>
+    <color name="fondo_gray_login">#ebebeb</color>
+    <color name="bemo_dark">#2E64FE</color>
+
+    <color name ="recieve_message">#56d8d8d8</color>
+    <color name="bemo_light">#00E5FF</color>
+    <color name="bemo_light_2">#18FFFF</color>
+    <color name="black_light">#212121</color>
+    <color name="bemo_end">#64FFDA</color>
+    <color name="name_end_2">#64FFDA</color>
+    <color name="bemo_light_light5">#EBFFFF</color>
+    <color name="bemo_light_light4">#E3FFFF</color>
+    <color name="bemo_light_light3">#DAFFFF</color>
+    <color name="bemo_light_light2">#BBFFFF</color>
+    <color name="bemo_light_light1">#A3FFFF</color>
+    <color name="teal">#009688</color>
+
+    <color name ="progress_bar_color">#495ae2</color>
+
+</resources>

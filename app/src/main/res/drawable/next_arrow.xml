@@ -1,0 +1,24 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+
+            android:shape="oval"
+
+            android:width="10dp"
+            android:height="10dp"
+            android:thicknessRatio="1"
+            android:useLevel="false" >
+            <solid android:color="@color/bemo_light" />
+
+
+            <size
+                android:height="100dp"
+                android:width="100dp" />
+
+
+        </shape>
+    </item>
+
+
+</layer-list>
+

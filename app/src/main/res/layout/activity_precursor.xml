@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tech.sungkim.bemo.Precursor">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assessment"
+        android:textSize="24sp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        android:textStyle="bold"
+        android:layout_marginTop="88dp"
+        android:textColor="@color/vanish_text_color"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/the_text_to_be_animated"
+        android:layout_width="351dp"
+        android:layout_height="153dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:textStyle="bold"
+
+        android:layout_marginTop="102dp"
+        android:paddingRight="24dp"
+        android:textColor="@color/vanish_text_color"
+        android:text="@string/cursor"
+        android:textSize="24sp" />
+</LinearLayout>

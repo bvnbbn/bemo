@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="25dp"
+    android:background="@drawable/border_sin_relleno">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/buttonProfile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/picture_man"
+            app:civ_border_width="0dp"
+            app:civ_border_color="@color/bemo_light"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="10dp">
+
+            <TextView
+                android:id="@+id/txt_name_chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:textColor="@color/gray_dark_3"
+                android:textStyle="bold"
+                android:text="Jacobi Doctor"/>
+
+            <TextView
+                android:id="@+id/txt_name_specialty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="@color/gray_dark_2"
+                android:text="Specialty in Medicine"/>
+
+            <TextView
+                android:id="@+id/txt_years_exp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gray_dark_2"
+                android:textSize="14sp"
+                android:text="Jacobi Doctor"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We value your opinion. Help us improve by sharing your feedback!"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="@color/gray_light_1"
+        android:textColor="@color/gray_dark_2"
+        android:textSize="15sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate your counselor"
+        android:layout_margin="10dp"
+        android:textColor="@color/gray_dark_2"
+        android:textSize="16sp"/>
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:numStars="5"
+        android:stepSize="1"
+        android:isIndicator="false"
+        style="@style/ratingMiddle" />  <!--android:rating="4"-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/gray_half"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/gray_dark_2"
+        android:text="Would your recommended us to someone to know?"/>
+
+
+
+
+    <Switch
+        android:id="@+id/switch_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:thumb="@drawable/switchselector"
+        android:track="@drawable/trackswitch"
+        android:thumbTextPadding="5dp"
+        android:textStyle="bold|italic"
+        android:typeface="sans"
+        android:textAlignment="center"
+        android:textOff="Yes"
+        android:textOn="Not"
+        android:showText="true"
+        android:switchTextAppearance="@style/SwitchTextAppearance"/>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/gray_half"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/gray_dark_2"
+        android:text="Review. Helps others with your experience."/>
+
+
+    <EditText
+        android:id="@+id/edit_comentar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:hint="input text"
+        android:textColorHint="@color/gray_half"
+        android:maxLines="4"
+        android:maxLength="100"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textCursorDrawable="@color/bemo_light"
+        android:imeActionLabel="listo"
+        android:background="@drawable/border_sin_relleno"
+        android:imeOptions="actionDone"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/gray_light"/>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <Button
+            android:id="@+id/btn_qualification"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bemo_gradient"
+            android:textColor="@color/white"
+            android:text="Send qualification"
+            android:textSize="18sp"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+
+</LinearLayout>

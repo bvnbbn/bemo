@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.tech.sungkim.bemo.ScoreCardActivity">
+    <TextView
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:id="@+id/question_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Questionstyle"
+        android:textSize="18sp"
+        android:maxLines="4"
+        android:maxHeight="105dp"
+        android:textColor="#495ae2"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:text="What does your anxiety score mean?"
+        android:layout_marginTop="36dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:id="@+id/score_val"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="16"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/get_started_btn_color"
+            android:textSize="36sp"/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="/21"
+            android:textColor="@color/greyish"
+            android:textSize="18sp"/>
+    </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text1"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="27dp"
+                android:maxLines="3"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#4a4a4a"
+                android:letterSpacing="0.04"
+                android:lineSpacingExtra="8sp"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text2"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="27dp"
+                android:text="@string/score_text2"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#4a4a4a"
+                android:letterSpacing="0.04"
+                android:lineSpacingExtra="8sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text3"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:text="@string/score_text3"
+                android:textSize="14sp"
+                android:textColor="#4a4a4a"
+                android:letterSpacing="0.04"
+                android:lineSpacingExtra="8sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#4a4a4a"
+                android:letterSpacing="0.04"
+                android:lineSpacingExtra="8sp"
+                android:id="@+id/text4"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:text="@string/score_text4"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#4a4a4a"
+                android:letterSpacing="0.04"
+                android:lineSpacingExtra="8sp"
+                android:id="@+id/text5"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:text="@string/score_text5"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:textColor="#4a4a4a"
+                android:letterSpacing="0.04"
+                android:lineSpacingExtra="8sp"
+                android:id="@+id/text6"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:text="@string/score_text6"/>
+
+          <!--  <TextView
+                android:id="@+id/text7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text8"
+                android:layout_marginLeft="32dp"
+                android:layout_marginRight="32dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginTop="15dp"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+           <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/score_text"
+                android:src="@drawable/bemo_anxiety_essenti"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                />!-->
+
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:id="@+id/trial_btn"
+                android:background="@drawable/know_more_button"/>
+        </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>
+

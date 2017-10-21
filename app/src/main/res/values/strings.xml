@@ -1,0 +1,209 @@
+<resources>
+    <string name="app_name">Bemo</string>
+    <string name="email_hint">Email</string>
+    <string name="fullname">Full Name</string>
+    <string name="password_hint">Password</string>
+    <string name="age_hint">Age (1980/10/15)</string>
+    <string name="login_subtitle">Don\'t have an account?</string>
+    <string name="register_subtitle">Already have an account?</string>
+    <string name="minimum_password">Password must have 6+ characters.</string>
+    <string name="auth_failed">Wrong password.</string>
+
+    <string name="google_web_id_token">408315985482-g9hbi45vgmm5dc8p3n65416r3mldsdba.apps.googleusercontent.com</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="login">Log In</string>
+    <string name="register">Sign Up</string>
+
+    <string name="error_auth">Authentication failed, check your mEmail and password or sign up</string>
+    <string name="error_register">Hubo un error en el registro, Intenta nuevamente!</string>
+    <string name="have_account1">Don\'t have an account?</string>
+    <string name="have_account2">Sign Up</string>
+    <string name="have_account3"> and take the 1st step to emotional wellness.</string>
+
+    <string name="register_account1">Already have an account?</string>
+    <string name="register_account2">Login</string>
+
+    <string name="txt_chat_1">Talk to us now.</string>
+    <string name="txt_chat_2">Start a new session.</string>
+    <string name="txt_chat_3">Select a Category</string>
+    <string name="txt_chat_4">We will connect you to the right counselor</string>
+    <string name="txt_chat_5">What\'s on your mind?</string>
+    <string name="txt_chat_6">Description</string>
+    <string name="txt_chat_7">Let\'s Connect</string>
+    <string name="txt_chat_family">Family</string>
+    <string name="txt_chat_relation">Relationship</string>
+    <string name="txt_chat_grief">Grief</string>
+    <string name="txt_chat_workstress">Work Stress</string>
+    <string name="txt_chat_note">We will connect you to the right counselor online at this moment.</string>
+    <string name="txt_chat_8">Past sessions</string>
+    <string name="txt_chat_9"> .</string>
+
+    <string name="text_buddies">Soon you will be able to save your favorite doctors here!</string>
+    <string name="text_book">Appointment booking, available soon!</string>
+
+    <string name="txt_noproviders">no providers available</string>
+    <string name="txt_error_internet">Don\'t have internet access</string>
+    <string name="txt_close_session">Close session</string>
+
+    <string name="text_about">Acording to who, 60 million people live with need counseling in indiawhere talking about it is taboo. We want to change that, first with India then globally. Officially selected for AtartUp Chile in May 2016. </string>
+
+    <string name="text_splash_2"> Your session is where you can instantly chat or call an expert counselor from anywhere, anytime! Just suscribe and connect. Cancel anytime.</string>
+    <string name="text_splash_3">We want to focus on your emotional wellness. Be more with Bemo.</string>
+
+
+    <string name="txt_register_2">Great, now that we are with you. \nTell us a little about you. This is onetime only.</string>
+
+
+    <string name="txt_register_3">Welcome to bemo, please fill in basic details.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="txt_info_consult">Great to see you \nat bemo againg!</string>
+    <string name="txt_info_consult_2">Feeling low? you are not alone.\nPeople start healing the moment they feel heard. Start you first session now.</string>
+    <string name="title_activity_pay">PayActivity</string>
+    <string name="title_activity_landing_main">Bemo</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <!-- new strings from zep -->
+    <string name="never_worry_alone">Never <strike>Worry</strike> Alone</string>
+    <string name="sign_up_text">Sign up or Login with</string>
+    <string name="term_conditions_intro">By continuing, you agree to <b>Terms &amp; Conditions</b></string>
+    <string name="splash_text">Get help for your anxiety instantly
+​with hand-picked therapists
+&amp; analytics driven therapy</string>
+    <string name="inf_txt_1_head">Search my feelings</string>
+    <string name="inf_txt_2_head">Self-love plan</string>
+    <string name="inf_txt_3_head">Finding bemo</string>
+    <string name="inf_txt_4_head">Therapy &amp; Me</string>
+    <string name="info_txt_1">Free standardized test for your\nanxiety with a sensitivity of 89%</string>
+    <string name="info_txt_2">Get help according to your budget.\nGet stress busters every month</string>
+    <string name="info_txt_3">Find the best therapist for you with\nour intelligent matching algorithm</string>
+    <string name="info_txt_4">Learn coping techniques and track \nyour progress with therapy</string>
+    <string name="already_signin">Already signed up? <span style="color:yellow"><u>Login</u></span></string>
+    <string-array name="entries">
+        <item name="1">Not at all</item>
+        <item name="2">Several Days</item>
+        <item name="3">More than half the days</item>
+        <item name="4">Nearly every day</item>
+    </string-array>
+
+
+    <string-array name="time_of_day">
+        <item>in the morning</item>
+        <item>in the afternoon</item>
+        <item>in the evening</item>
+        <item>at night</item>
+        <item>in small moments throughout the day</item>
+    </string-array>
+
+
+    <string-array name="places">
+        <item>at work</item>
+        <item>at school</item>
+        <item>at college</item>
+        <item>Parenting</item>
+        <item>Home</item>
+    </string-array>
+
+    <string-array name="goals">
+        <item>Work</item>
+        <item>Self-Image</item>
+        <item>Calm</item>
+        <item>Sleep</item>
+        <item>Love</item>
+        <item>Studies</item>
+        <item>Family</item>
+        <item>Health</item>
+        <item>Friends</item>
+    </string-array>
+
+    <string-array name="traits">
+        <item>Analytical</item>
+        <item>Calm</item>
+        <item>Contemplative</item>
+        <item>Creative</item>
+        <item>Curious</item>
+        <item>Intellectual</item>
+    </string-array>
+
+    <string-array name="sports">
+        <item>Exercise/Sports</item>
+        <item>Music</item>
+        <item>TV or Movies</item>
+        <item>Outdoor Activities</item>
+        <item>Travel</item>
+        <item>Reading</item>
+    </string-array>
+
+
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Non-binary</item>
+    </string-array>
+
+
+
+
+
+
+
+    <string-array name="final_answer_options">
+        <item>Not difficult at all</item>
+        <item>Somewhat difficult</item>
+        <item>Very difficult</item>
+        <item>Extremely difficult</item>
+    </string-array>
+    <string name="score_explainer">Your score indicates that you are feeling many symptoms of anxiety.</string>
+
+    <string name="score_explainer_2">Any changes in income, employment, life events such as the death of a loved one or a relationship break-up, physical illness and problems caused by alcohol and drug use can trigger anxiety or depressive disorders; making it difficult to focus or be productive at day to day tasks.</string>
+
+    <string name="score_explainer_3">Bemo is way of receiving guided emotional support to understand what affects you and start feeling relief with our therapy care plans.</string>
+
+    <string name="score_explainer_4">Connect with a therapist for free and recieve weekly care plans. See if bemo is for you!</string>
+    <string name="cursor">Over the last 2 weeks, how often have you been bothered by any of the following problems?</string>
+    <string name="title_activity_dashboard">Bemo</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="sample_therapist_message">Hi, I’m excited to partner with you on your emotional support journey. For the past 7 years as a clinical psychologist, I’ve been privileged to facilitate the growth of many clients’ psychosocial well-being via CBT and Motivational Interviewing frameworks: approaches that have been studied and shown to be effective to enacting positive, lasting change.
+As well, I’m looking forward to getting to know you and what you’re hoping to accomplish. I’ll be here to provide personalized accountability, feedback, and motivation to help you achieve those personal milestones. As well, if you ever have any questions about the program, don’t hesitate to ask! Looking forward to working with you :)</string>
+    <string name="title_activity_user_dash_b">Bemo</string>
+
+    <string name="score_text2">Worrying makes it difficult to focus or
+        be productive at your day to day tasks. Anxiety
+      and depressive disorders are triggered by various contributor factors.</string>
+
+    <string name="score_text3">Life events such as any changes in income, employment,death
+    of a loved one or a relationship break-up can cause your anxiety to trigger. Physical
+     illness and alcohol and drugs use can also be contributing factors that trigger
+    your anxiety.</string>
+
+    <string name="score_text4">Connect with a therapist who understands
+        how you live your day to day life and get access to unlimited
+        messaging therapy and our researched therapy techniques for you.</string>
+
+     <string name="score_text5">We take your privacy seriously and everything
+         you share with Bemo is confidential. We’re excited for you to meet your
+         coach and try intelligent techniques that work for you.</string>
+
+     <string name="score_text6">Now, you may be thinking is this free or paid? What do i get?</string>
+
+
+
+
+    <string name="facebook_app_id">1429203437115714</string>
+    <string name="fb_login_protocol_scheme">fb1429203437115714</string>
+
+
+
+
+
+</resources>

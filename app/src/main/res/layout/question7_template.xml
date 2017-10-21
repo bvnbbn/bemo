@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tech.sungkim.bemo.FinalQuestionActivity">
+
+
+    <TextView
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginBottom="18dp"
+        android:id="@+id/question_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Questionstyle"
+        android:textSize="18sp"
+        android:maxLines="4"
+        android:maxHeight="105dp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:layout_marginTop="36dp" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:id="@+id/name"
+        android:maxHeight="105dp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:layout_marginTop="36dp"
+        android:hint="First name"
+        android:textSize="16sp"
+        android:textColor="#61000000"
+        android:lineSpacingExtra="8sp"
+        android:backgroundTint="#ffba26"
+       />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:id="@+id/age"
+        android:maxHeight="105dp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:layout_marginTop="36dp"
+        android:hint="Age"
+        android:textSize="16sp"
+        android:textColor="#61000000"
+        android:lineSpacingExtra="8sp"
+        android:backgroundTint="#ffba26"
+        />
+
+
+    <ListView
+        android:id="@+id/answer_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/answer_list_drawable"
+        android:choiceMode="singleChoice"
+        android:divider="@color/list_border"
+        android:dividerHeight="2dp"
+        android:listSelector="@drawable/answer_list_selected"
+        android:orientation="vertical"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp">
+    </ListView>
+    </LinearLayout>
+
+</LinearLayout>

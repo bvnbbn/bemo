@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_checked="true">
+        <shape android:shape="rectangle"
+            android:visible="true"
+            android:dither="true"
+            android:useLevel="false">
+
+            <gradient android:startColor="@color/bemo_light"
+                android:endColor="@color/bemo_light"
+                android:angle="270"/>
+
+            <corners
+                android:bottomRightRadius="25dp"
+                android:topRightRadius="25dp"
+                /><!--android:radius="25dp"-->
+
+            <size android:width="100dp"
+                android:height="40dp" />
+
+            <stroke android:width="1px"
+                android:color="@color/gray_light" />
+        </shape>
+    </item>
+
+    <item android:state_checked="false">
+        <shape android:shape="rectangle"
+            android:visible="true"
+            android:dither="true"
+            android:useLevel="false">
+
+            <gradient android:startColor="@color/bemo_light"
+                android:endColor="@color/bemo_light"
+                android:angle="270"/>
+
+            <stroke android:width="1px"
+                android:color="@color/gray_light" />
+
+            <corners
+                android:bottomLeftRadius="25dp"
+                android:topLeftRadius="25dp"/>
+
+            <size android:width="100dp"
+                android:height="40dp" />
+        </shape>
+    </item>
+
+
+</selector>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#495ae2"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="32dp"
+        android:text="Less than your monthly tea bill"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="32dp"
+        android:textSize="18sp"
+        android:textColor="#4a4a4a"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:text="Bemo anxiety essential plan" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="#4a4a4a"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:text="+ First 10 days free trial"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="#4a4a4a"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:text="+ 1:1 personal coaching by a therapist"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="#4a4a4a"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:text="+ Unlimited messaging"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="#4a4a4a"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:text="+ Interactive therapy to-dos &amp; techniques"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="#4a4a4a"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:text="+ Customised CBT plan"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="#4a4a4a"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:text="+ 1 Phone session/mo (30min)"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="#4a4a4a"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:text="+ Anxiety tracker on app"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:textColor="#4a4a4a"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:text="+ INR 250/wk paid monthly"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="32dp"
+        android:textSize="18sp"
+        android:textColor="#4a4a4a"
+        android:letterSpacing="0.03"
+        android:lineSpacingExtra="4sp"
+        android:text="Total to be paid: INR 999 (4x250)"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="130dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginTop="27dp"
+        android:textSize="11sp"
+        android:textColor="#4a4a4a"
+        android:letterSpacing="0.04"
+        android:text="cancel anytime, money back guarantee"
+        />
+
+    <Button
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:id="@+id/trial_btn"
+        android:background="@drawable/button"/>
+
+
+
+</LinearLayout>
+</ScrollView>

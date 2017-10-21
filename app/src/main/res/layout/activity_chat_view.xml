@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chat_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    tools:context="com.tech.sungkim.bemo.ChatView"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/chat_toolbar"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        android:background="@color/white"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        fab:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        fab:layout_constraintLeft_toLeftOf="parent"
+        fab:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        fab:layout_constraintBottom_toTopOf="@+id/chat_recyclerView">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/therapist_image"
+            android:layout_width="50dp"
+            android:layout_marginLeft="-20dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/picture_dr"
+            app:civ_border_color="@color/white" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_alignParentTop="true"
+
+            android:layout_toRightOf="@+id/therapist_image"
+            android:layout_toEndOf="@+id/therapist_image">
+
+            <TextView
+                android:id="@+id/txt_namedoctor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="Dr. Angelica"
+                android:textColor="@color/gray_dark_2" />
+
+            <TextView
+                android:id="@+id/txt_profession"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="M. Phil  Clinical Psychology"
+                android:textColor="@color/gray_dark" />
+
+            <TextView
+                android:id="@+id/txt_experience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Counseling since 7 years"
+                android:textColor="@color/gray_dark"
+                android:visibility="gone" />
+        </LinearLayout>
+
+
+        <!-- </RelativeLayout>-->
+    </android.support.v7.widget.Toolbar>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_recyclerView"
+        android:layout_width="0dp"
+        android:layout_height="495dp"
+        android:background="@color/white"
+        android:padding="0dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        fab:layout_constraintBottom_toTopOf="@+id/button2"
+        fab:layout_constraintRight_toRightOf="@+id/button2"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="8dp"
+        fab:layout_constraintLeft_toLeftOf="@+id/button2" />
+
+
+    <RelativeLayout
+        android:id="@+id/relative_edit"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:background="@color/white"
+
+        android:gravity="center_vertical"
+        tools:layout_conversion_absoluteX="2dp"
+        tools:layout_conversion_absoluteY="520dp"
+        tools:layout_conversion_absoluteWidth="380dp"
+        tools:layout_conversion_absoluteHeight="45dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        fab:layout_constraintBottom_toBottomOf="@+id/button2"
+        fab:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="66dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="50dp"
+        fab:layout_constraintLeft_toLeftOf="parent"
+        fab:layout_constraintTop_toTopOf="@+id/progress">
+
+
+        <LinearLayout
+            android:id="@+id/relative_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="3dp"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_toLeftOf="@+id/imgbtn_sendchat">
+            <!-- android:layout_toLeftOf="@id/imgbtn_sendchat" android:layout_toStartOf="@id/imgbtn_sendchat"-->
+
+
+            <TextView
+                android:id="@+id/send_image_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:textColor="#495ae2"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:text="+"
+
+                />
+
+            <EditText
+                android:id="@+id/edit_message"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:textSize="14sp"
+                android:textCursorDrawable="@color/bemo_light"
+                android:hint="Type your message"
+                android:background="@drawable/border_chat_edit" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/triangle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/down_triangle"
+            android:layout_toRightOf="@+id/relative_chat"
+            android:layout_toEndOf="@+id/relative_chat"
+            android:layout_marginTop="-7dp"
+            android:layout_marginLeft="-17dp"
+            android:layout_marginStart="-17dp"
+            android:visibility="gone" />
+
+
+        <ImageButton
+            android:id="@+id/imgbtn_sendchat"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/ico_send"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="5dp" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="invisible"
+        android:id="@+id/progress"
+        tools:layout_conversion_absoluteX="336dp"
+        tools:layout_conversion_absoluteY="454dp"
+        tools:layout_conversion_absoluteWidth="48dp"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        fab:layout_constraintBottom_toBottomOf="parent"
+        fab:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="65dp" />
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#8CD3D3D3"
+        android:id="@+id/xpired_window"
+        android:visibility="invisible"
+        tools:layout_conversion_absoluteX="0dp"
+        tools:layout_conversion_absoluteY="61dp"
+        tools:layout_conversion_absoluteWidth="384dp"
+        tools:layout_conversion_absoluteHeight="506dp"
+        fab:layout_constraintRight_toLeftOf="parent"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        fab:layout_constraintBottom_toTopOf="@+id/chat_recyclerView"
+        android:layout_marginTop="5dp"
+        fab:layout_constraintTop_toBottomOf="@+id/chat_toolbar"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="2dp"
+        fab:layout_constraintLeft_toLeftOf="parent">
+
+        <Button
+            android:enabled="true"
+            android:id="@+id/pay_btn_"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_alignParentBottom="true"
+            android:text="Pay to Continue"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+
+        android:text="Pay to Continue"
+        android:textAllCaps="false"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        fab:layout_constraintRight_toRightOf="parent"
+        fab:layout_constraintTop_toBottomOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        fab:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:id="@+id/button2" />
+
+</android.support.constraint.ConstraintLayout>

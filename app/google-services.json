@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "408315985482",
+    "firebase_url": "https://shining-inferno-121.firebaseio.com/",
+    "project_id": "shining-inferno-121",
+    "storage_bucket": "shining-inferno-121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408315985482:android:f68dc2cdb1117627",
+        "android_client_info": {
+          "package_name": "com.tech.sungkim.bemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408315985482-g9hbi45vgmm5dc8p3n65416r3mldsdba.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDklvu8GgIdy0UWKA5u4j7aAw-odCb380"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

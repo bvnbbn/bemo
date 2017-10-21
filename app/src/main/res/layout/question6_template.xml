@@ -1,0 +1,86 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tech.sungkim.bemo.FinalQuestionActivity">
+
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="24dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="28dp"
+        android:paddingRight="24dp"
+        style="@android:style/Widget.ProgressBar.Horizontal" />
+
+
+    <TextView
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginStart="25dp"
+        android:id="@+id/question_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Questionstyle"
+        android:textSize="18sp"
+        android:maxLines="4"
+        android:maxHeight="105dp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:layout_marginTop="36dp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp">
+            <!-- Buttons for question six -->
+            <TextView
+
+                android:id="@+id/identify_text1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Questionstyle"
+                android:textSize="16sp"
+                android:textColor="#de000000"
+                android:lineSpacingExtra="8sp"
+                android:text="
+            I feel more myself-
+            “I am able to express my personality
+            without fear of judgement&quot;
+            "
+                android:background="@drawable/answer_list_drawable"
+                android:layout_marginTop="36dp" />
+
+            <TextView
+                android:id="@+id/identify_text2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Questionstyle"
+                android:textSize="16sp"
+                android:textColor="#de000000"
+                android:lineSpacingExtra="8sp"
+                android:text="
+            I am more outgoing-
+            “I feel less hesitation to make plans
+            with people and to strike random
+            conversations with strangers”
+    "
+                android:background="@drawable/answer_list_drawable"
+                android:layout_marginTop="36dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

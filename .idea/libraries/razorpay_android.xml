@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="razorpay-android">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/razorpay-android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

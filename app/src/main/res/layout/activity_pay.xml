@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tech.sungkim.bemo.PayActivity">
+
+
+    <TextView
+        android:id="@+id/just_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Choose a payment option"
+        android:textSize="24sp"
+        android:paddingRight="12sp"
+        android:layout_marginLeft="11dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="72dp" />
+
+    <TextView
+        android:id="@+id/greeting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hey There, "
+        android:textSize="32sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_2"
+        android:layout_width="189dp"
+        android:layout_height="178dp"
+        android:layout_gravity="center"
+
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="39dp"
+        android:padding="16dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/just_label">
+
+        <TextView
+            android:id="@+id/pay_model_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bemo_light"
+            android:padding="6dp"
+            android:text="Rs. 20 /month"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="12sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+
+            android:id="@+id/slash1"
+            android:text="What you get?" />
+
+        <TextView
+            android:id="@+id/features_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="6dp"
+            android:layout_marginTop="8dp"
+            android:text="Unlimited Messaging"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="215dp" />
+
+
+        <Button
+            android:id="@+id/pay_btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="Pay" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_1"
+        android:layout_width="174dp"
+        android:layout_height="178dp"
+        android:layout_gravity="center"
+
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="39dp"
+        android:padding="16dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/just_label">
+
+        <TextView
+            android:id="@+id/pay_model_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/bemo_light"
+            android:padding="6dp"
+            android:text="Rs. 20 /month"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:text="What you get?"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/features_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:padding="6dp"
+            android:text="Unlimited Messaging"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="215dp" />
+
+        <Button
+            android:id="@+id/pay_btn_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="Pay" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_3"
+        android:layout_width="167dp"
+        android:layout_height="194dp"
+        android:layout_gravity="center"
+
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="226dp"
+        android:padding="16dp"
+        app:cardCornerRadius="4dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/just_label">
+
+        <TextView
+            android:id="@+id/pay_model_3"
+            android:layout_width="169dp"
+            android:layout_height="wrap_content"
+            android:background="@color/bemo_light"
+            android:padding="6dp"
+            android:text="Rs. 20 /month"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+
+            android:text="What you get?"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/pay_btn_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:text="Pay" />
+
+        <TextView
+            android:id="@+id/features_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:padding="6dp"
+            android:text="Unlimited Messaging"
+            tools:layout_editor_absoluteX="122dp"
+            tools:layout_editor_absoluteY="436dp" />
+
+    </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>
